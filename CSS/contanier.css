@@ -1,0 +1,18 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+} body {
+    background-color: var(--COLOR_BG);
+} .container {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+} :root {
+    --COLOR_WHITE: #fff;
+    --COLOR_BLUE: #23A6F0;
+    --COLOR_TRANS: transparent;
+    --COLOR_BLACK: #000;
+    --COLOR_BG: #FAFAFA;
+    --COLOR_GRAY: #737373;
+}
