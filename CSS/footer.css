@@ -1,0 +1,31 @@
+.footer__first-part a {
+    text-decoration: none;
+    color: var(--COLOR_GRAY);
+    font-weight: 600;
+} .footer__col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} .footer__first-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 50px;
+    gap: 20px;
+} .footer__touch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} .footer__second-part-h4 {
+    color: var(--COLOR_GRAY);
+} .footer__second-part {
+    height: 91px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px 0 20px;
+} .footer__second-part-apps {
+    display: flex;
+    gap: 20px;
+}

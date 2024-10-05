@@ -10,10 +10,7 @@ let header = document.querySelector('header')
 /* ====== When you scroll the modalToTop will be appered at the bottom of the page ====== */
 
 window.addEventListener('scroll', function () {
-    if (document.documentElement.scrollTop >= 91) {
-        modalToTop.style.display = 'flex'
-        modalToTop.style.top = `${document.documentElement.scrollTop + this.window.innerHeight - 70}px`
-    }
+
 })
 
 /* ====== When the site loaded these two functions will be executed ====== */
